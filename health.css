@@ -1,7 +1,10 @@
 
 * {box-sizing: border-box}
 
-body {background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_145088.jpg")}
+body {background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_145088.jpg"); 
+background-size: cover;
+
+}
 
 
 /* Full-width input fields */
