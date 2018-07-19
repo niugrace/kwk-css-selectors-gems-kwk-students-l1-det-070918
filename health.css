@@ -11,7 +11,7 @@ body {background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2yo
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #BEBEBE;
  
 }
 
@@ -21,7 +21,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 hr {
-  border: 2px solid #f1f1f1;
+  border: 2px solid #BEBEBE;
   margin-bottom: 20px;
 }
 
