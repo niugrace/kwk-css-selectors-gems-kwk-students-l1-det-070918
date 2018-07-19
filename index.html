@@ -1,33 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Selectors Gems</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/gems.css">
-</head>
+<!DOCTYPE html> 
+<html> 
+  <head><title>Health Tracker</title>
+  <link rel = "stylesheet" type = "text/css" href = "health.css">
+  </head>
+  
 <body>
-  <div class="wrapper">
-    <!-- Wheelbarrow -->
-    <div id="wheelbarrow"></div>
-    <div id="wheelbarrow-foreground"></div>
+  <header><center><h1 style=font-size:60px><font color="white">Welcome to Health Tracker</font></h1></center></header>
+  
+  <header><center><h2 style=font-size:25px><font color="white">If you have an existing account, click <a href = "#">here</a>.</font></h2></center></header>
+  
+  <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h3>Sign Up</h3>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
 
-    <!-- Gems -->
-    
-    <img id="diamond" src="images/diamond-gem.png" alt="Diamond">
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <img class="emerald" src="images/emerald-gem.png" alt="emerald">
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
-    <img id="ruby" src="images/ruby-gem.png" alt="Ruby">
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
 
-    <div id="sand">
-      <img src="images/sapphire-gem.png" alt="Sapphire">
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
     </div>
-
-    <img class="yellow_diamond" src="images/yellow-diamond-1.png" alt="yellow diamond">
-    
-
-  </div> <!-- closing wrapper -->
-</body>
+  </div>
+</form>
+  
+<footer><center><h2><font color="white">"Small daily improvements are the key to staggering long-term results." -Anonymous</font></h2></center></footer>
+  
+  
+</body>  
+ 
 </html>
